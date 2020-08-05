@@ -1,0 +1,700 @@
+/*********************************************/
+/*              RESET CSS                  "/
+/*********************************************/
+
+html {
+	box-sizing: border-box;
+}
+.row, .col, .column {
+	margin: 0;
+	padding: 0;
+}
+/*********************************************/
+/*                IMPORT FONT                "/
+/*********************************************/
+
+@font-face {
+	font-family: "Dealers";
+	src: url("../fonts/Dealers-Shaded.otf");
+}
+/*********************************************/
+/*              GENERAL CSS                  "/
+/*********************************************/
+
+body {
+	font-family: "Poppins", sans-serif;
+	color: #414141;
+	background: #ffffff;
+	font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Poppins", sans-serif;
+}
+a {
+	color: #191919;
+}
+a:hover {
+	color: #C7AD88 !important;
+	text-decoration: none;
+}
+/*********************************************/
+/*                UTILITY CSS                "/
+/*********************************************/
+
+.slider-title {
+	font-family: 'Dealers';
+	font-size: 7rem;
+}
+.slider-subtitle {
+	font-size: 1.2rem;
+}
+.main-title {
+	font-family: 'Dealers';
+	font-size: 2.5rem;
+	text-align: center;
+	letter-spacing: 0.1rem;
+}
+.hr-style {
+	border-bottom: 0.3rem solid #C7AD88;
+	width: 100px;
+}
+.hr-style-left {
+	border-bottom: 0.3rem solid #C7AD88;
+	width: 100px;
+	margin: 0.8rem 0 0 0 !important;
+}
+.title-section {
+	text-align: center;
+	margin-bottom: 70px;
+	position: relative;
+}
+.bg-blackboard {
+	background-image: url('../img/bg-image-dish.jpg');
+	background-size: cover;
+	padding: 130px 0;
+	width: 100%;
+	height: 100%;
+}
+.bg-blackboard-menu {
+	background-image: url('../img/bg-image-dish.jpg');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+.border-top {
+	border-top: 0.3rem solid #C7AD88 !important;
+}
+a.btn-design {
+	background-color: transparent;
+	border: 0.2rem solid #C7AD88;
+	border-radius: 0;
+	padding: 0.8rem 1.2rem;
+	color: #C7AD88 !important;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	cursor: pointer;
+}
+a.btn-design:hover {
+	color: #fff !important;
+	background-color: #C7AD88;
+	text-shadow: 2px 2px 0px rgba(150, 150, 150, 1);
+}
+.btn.btn-design {
+	background-color: transparent;
+	border: 0.2rem solid #C7AD88;
+	border-radius: 0;
+	padding: 0.8rem 1.2rem;
+	color: #C7AD88 !important;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	cursor: pointer;
+	font-size: 0.7rem;
+}
+.btn.btn-design:hover {
+	color: #fff !important;
+	background-color: #C7AD88;
+	text-shadow: 2px 2px 0px rgba(150, 150, 150, 1);
+}
+.section-title {
+	font-family: 'Dealers';
+	font-size: 5.5rem;
+}
+.section-subtitle {
+	font-size: 1.2rem;
+}
+#page-title {
+	background-image: url(../img/reservation-image.jpg);
+	background-attachment: fixed;
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 40vh;
+	margin-top: 6.2rem;
+}
+/*********************************************/
+/*               PRELOADER CSS               "/
+/*********************************************/
+
+body {
+	display: hidden;
+}
+/* Preloader */
+
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+	z-index: 999999;
+}
+#status {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-image: url(/assets/img/loader.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px;
+}
+/*********************************************/
+/*               BUTTON TOP CSS              "/
+/*********************************************/
+
+a#button-to-top {
+	display: inline-block;
+	background-color: #C7AD88;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+}
+.fa-arrow-up {
+	font-size: 2em;
+	line-height: 50px;
+	color: #2D2F31;
+}
+#button-to-top:hover {
+	cursor: pointer;
+	background-color: #8f7959;
+}
+#button-to-top:active {
+	background-color: #555;
+}
+#button-to-top.show {
+	opacity: 1;
+	visibility: visible;
+}
+/*********************************************/
+/*              NAVBAR CSS                  "/
+/*********************************************/
+
+a.navbar-brand {
+	color: #C7AD88 !important;
+	font-size: 1.7rem !important;
+	font-weight: bold;
+	letter-spacing: 0.2rem;
+}
+.navbar {
+	background-color: #191919 !important;
+	padding: 1.5rem;
+	border-bottom: 0.3rem solid #C7AD88;
+	-webkit-box-shadow: -1px 6px 5px -5px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -1px 6px 5px -5px rgba(0, 0, 0, 0.75);
+	box-shadow: -1px 6px 5px -5px rgba(0, 0, 0, 0.75);
+}
+a.nav-link {
+	letter-spacing: 0.1rem;
+	color: #C7AD88 !important;
+	border: 0.1rem solid transparent;
+}
+a.nav-active, a.nav-link:hover {
+	border: 0.1rem solid #fff;
+	color: #fff !important;
+	transition: all 0.009s ease;
+}
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+	outline: none;
+	box-shadow: none;
+}
+.fa.fa-bars {
+	color: #C7AD88 !important;
+}
+/*********************************************/
+/*              SLIDER CSS                  "/
+/*********************************************/
+
+.carousel-item:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+span.navbar-toggler-icon {
+	color: #C7AD88;
+}
+.full-width {
+	width: 100%;
+}
+.carousel-caption {
+	position: absolute;
+	top: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	height: 100%;
+}
+#static-image {
+	background-image: url('../img/mobile-image.jpg');
+	width: 100%;
+	height: 70vh;
+	background-position: center;
+	background-size: cover;
+}
+/*********************************************/
+/*                 MENU CSS                  "/
+/*********************************************/
+
+.card {
+	border: none;
+	border-radius: 0;
+	-webkit-box-shadow: -1px 2px 20px -6px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -1px 2px 20px -6px rgba(0, 0, 0, 0.75);
+	box-shadow: -1px 2px 20px -6px rgba(0, 0, 0, 0.75);
+}
+.card-body {
+	background-color: #2D2F31;
+}
+.menu-content {
+	margin-top: 1rem;
+}
+.menu-content h3 {
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #C7AD88;
+	text-align: center;
+	letter-spacing: 0.2rem;
+}
+.menu-content p {
+	text-align: center;
+	letter-spacing: 0.2rem;
+	font-size: 0.9rem;
+	color: #C7AD88;
+}
+.card-img-top {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.card-custom-margin {
+	margin-top: 1.7rem;
+}
+/*********************************************/
+/*              RESERVATION CSS              "/
+/*********************************************/
+
+#reservation {
+	background-image: url(../img/reservation-image.jpg);
+	background-attachment: fixed;
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 55vh;
+}
+/*********************************************/
+/*                 CONTACT CSS               "/
+/*********************************************/
+
+.contact-section #contact-form {
+	margin: 0 auto;
+	max-width: 770px;
+}
+.contact-section #contact-form input[type="text"], .contact-section #contact-form textarea {
+	display: block;
+	outline: none;
+	border: 2px solid #666666;
+	margin: 0 0 1.875rem;
+	width: 100%;
+	padding: 10px 20px;
+	background: transparent;
+	color: #999999;
+	font-size: 1rem;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.contact-section #contact-form textarea {
+	height: 130px;
+}
+.contact-section #contact-form .center-area {
+	text-align: center;
+}
+.contact-section div.contact-info {
+	padding-top: 60px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.contact-section div.contact-info .contact-info-box {
+	margin-bottom: 20px;
+	overflow: hidden;
+	text-align: center;
+}
+.contact-section div.contact-info .contact-info-box span, .contact-section div.contact-info .contact-info-box i {
+	font-size: 2.5rem;
+	color: #c7ad88;
+}
+.contact-section div.contact-info .contact-info-box h2 {
+	color: #ffffff;
+}
+.contact-section div.contact-info .contact-info-box p {
+	margin-bottom: 0;
+	color: #fff;
+}
+/*********************************************/
+/*                 FOOTER CSS                "/
+/*********************************************/
+
+#footer {
+	background-color: #191919;
+	border-bottom: 5px solid #c7ad88;
+	padding: 50px 0px;
+}
+.footer-title {
+	color: #c7ad88;
+	font-size: 18px;
+	font-family: Dealers;
+	font-size: 1.7rem;
+	letter-spacing: 0.1rem;
+}
+.footer-description {
+	font-size: 0.9rem;
+}
+.last-footer {
+	background-color: #191919;
+	padding: 30px 0px;
+}
+.copyright {
+	color: #c7ad88;
+	font-size: 0.9rem;
+}
+input.subscribe-input {
+	display: block;
+	outline: none;
+	border: 2px solid #666666;
+	width: 100%;
+	padding: 18px 20px;
+	background: #191919;
+	color: #999999;
+	font-size: 1rem;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	border-radius: 0;
+}
+input.subscribe-input:focus {
+	background: #191919;
+	color: #999999;
+	border: 2px solid #666666;
+	box-shadow: none;
+}
+/*********************************************/
+/*                  ABOUT CSS                "/
+/*********************************************/
+
+#about {
+	padding: 130px;
+}
+.bordered-image {
+	border-radius: 50%;
+	width: 150px;
+	margin: 1rem;
+	border: 0.2rem solid #C7AD88;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	padding: 0;
+}
+.quote {
+	font-style: italic;
+	font-size: 0.9rem;
+	letter-spacing: 0.1rem;
+	line-height: 1.5rem;
+	padding: 0 0.5rem;
+	margin-top: 0.5rem;
+}
+.cite-name {
+	color: #fff;
+	font-size: 0.9rem;
+	text-align: center;
+	letter-spacing: 0.1rem;
+}
+.cite-description {
+	color: #dedede;
+	font-size: 0.7rem;
+	text-align: center;
+	letter-spacing: 0.1rem;
+	font-style: italic;
+}
+/*********************************************/
+/*                 BLOG LIST                 "/
+/*********************************************/
+
+#blog {
+	padding: 130px 0;
+}
+.blog-list-item {
+	margin-bottom: 6rem;
+}
+.social {
+	position: relative;
+	width: 60%;
+	max-width: 200px;
+	margin: 2rem auto 0 auto;
+	background-color: #FFFFFF;
+	z-index: 1;
+}
+.social-item a {
+	text-decoration: none;
+	color: #2D2F31;
+	font-size: 0.9rem;
+	z-index: 9999;
+}
+.social-item a:hover {
+	color: #C7AD88;
+}
+.blog-content h1 {
+	font-weight: bold;
+	letter-spacing: 0.5rem;
+	margin-top: 1.2rem;
+	font-size: 2.3rem;
+}
+.blog-content p{
+	padding: 0 6rem;
+	margin-top: 1rem;
+}
+#blog-single {
+	padding: 130px 0;
+}
+.border-social {
+	position: relative;
+	border: 1px solid #C7AD88;
+	margin: -13px auto 0 auto;
+	z-index: 0;
+	width: 60%;
+}
+
+.list-inline{
+    margin: 0.8rem 0 !important;
+}
+.list-inline a {
+	font-size: 0.8rem;
+	color: #c7ad88;
+	text-transform: uppercase;
+}
+.list-inline a:hover {
+	text-decoration: none;
+}
+span.slash {
+	font-size: 0.8rem;
+	color: #c7ad88;
+}
+.paginations {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin-top: 10px;
+}
+.paginations li {
+	display: inline;
+	text-align: center;
+}
+.paginations a {
+	float: left;
+	display: block;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 5px 12px;
+	color: #c7ad88;
+	margin-left: -1px;
+	border: 1px solid transparent;
+	line-height: 1.5;
+}
+.paginations a .active {
+	cursor: default;
+}
+.paginations a:active {
+	outline: none;
+}
+.paginations a {
+	margin-left: 3px;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 100%;
+}
+.paginations a:hover {
+	border-color: #c7ad88;
+}
+#activePage {
+	background-color: #c7ad88;
+	color: white;
+}
+.related-post-content {
+	display: block;
+	padding: 0 1.6rem;
+}
+.related-post-content a {
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+	color: #414141;
+	text-decoration: none;
+}
+/*********************************************/
+/*                MENU PAGE CSS              "/
+/*********************************************/
+
+.menu-container {
+	width: 100%;
+}
+.menu-text, .menu-image {
+	flex-basis: 50%;
+}
+.menu-content {
+	margin-top: 1.5rem;
+}
+.menu-text {
+	padding: 83px 100px !important;
+}
+p.menu-name {
+	font-size: 1.3rem;
+	text-align: left;
+	text-transform: uppercase;
+	color: #191919;
+	font-weight: bold;
+}
+p.menu-price {
+	margin-left: 9rem;
+	font-weight: normal;
+	color: #191919;
+	font-size: 1.3rem;
+}
+/*********************************************/
+/*               CSS MEDIA QUERIES           "/
+/*********************************************/
+
+@media (min-width: 320px) and (max-width: 640px) {
+	.slider-title {
+		font-family: 'Dealers';
+		font-size: 3.4rem;
+		margin-top: -160px;
+	}
+	.navbar-nav {
+		margin-top: 1rem;
+	}
+	.card {
+		margin-top: 1.7rem;
+	}
+	.section-title {
+		font-size: 4rem;
+	}
+	#history-text {
+		padding: 0 !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	#history-image {
+		padding: 0 !important;
+		margin-top: 1.4rem;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	.related-post-content {
+		margin-top: 1.1rem;
+	}
+	.blog-content p{
+		padding: 0;
+	}
+}
+@media (min-width: 641px) and (max-width: 961px) {
+	.slider-title {
+		font-family: 'Dealers';
+		font-size: 3.2rem;
+		margin-top: -135px;
+	}
+	a.nav-link {
+		border: 0.1rem solid transparent;
+	}
+	a.nav-active, a.nav-link:hover {
+		border: none;
+		color: #fff !important;
+		transition: all 0.007s ease;
+	}
+	.navbar-nav {
+		margin-top: 1rem;
+	}
+	.card {
+		margin-top: 1.7rem;
+	}
+	#history-text {
+		padding: 0 !important;
+	}
+	#history-image {
+		padding: 0 !important;
+		margin-top: 1.4rem;
+	}
+	.related-post-content {
+		margin-top: 1.1rem;
+	}
+}
+@media only screen and (max-width: 990px) {
+	a.nav-link {
+		border: 0.1rem solid transparent;
+	}
+	a.nav-active, a.nav-link:hover {
+		border: 0.1rem solid transparent;
+		color: #fff !important;
+		transition: all 0.007s ease;
+	}
+}
+@media (min-width: 961px) and (max-width: 1281px) {
+	.slider-title {
+		font-family: 'Dealers';
+		font-size: 4rem;
+		margin-top: 1.9rem;
+	}
+	.slider-subtitle {
+		font-size: 1rem;
+	}
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 1920px) {
+	.contact-section {
+		background: #111 url("../img/bg-image-dish.jpg") center center no-repeat;
+		background-size: cover;
+	}
+}
