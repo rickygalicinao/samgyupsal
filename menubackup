@@ -1,0 +1,57 @@
+
+
+  <!-- Menu Start -->
+  <section id="menu">
+    <div class="fluid-container">
+      <div class="row no-gutters">
+
+        <div class="col-md bg-blackboard-menu d-lg-none d-xl-block">
+          <div class="menu-text flex-grow-1 py-4 px-5">
+            <h2 class="main-title text-left text-white">SPECIAL</h2>
+            <hr class="hr-style-left" />
+            <div class="menu-content d-flex justify-content-between">
+              <p class="menu-name text-uppercase font-weight-bold text-white">SOONDUBU JJIGAE </p>
+              <p class="menu-price text-white">P250.00</p>
+            </div>
+
+            <div class="menu-content d-flex justify-content-between">
+              <p class="menu-name text-uppercase font-weight-bold text-white">BUFFALO CHICKEN</p>
+              <p class="menu-price text-white">P380.00</p>
+            </div>
+
+            <div class="menu-content d-flex justify-content-between">
+              <p class="menu-name text-uppercase font-weight-bold text-white">BEEF GRILLED STEAK</p>
+              <p class="menu-price text-white">P250.00</p>
+            </div>
+
+            <div class="menu-content d-flex justify-content-between">
+              <p class="menu-name text-uppercase font-weight-bold text-white">BIBIMBAP</p>
+              <p class="menu-price text-white">P200.00</p>
+            </div>
+
+            <div class="menu-content d-flex justify-content-between">
+              <p class="menu-name text-uppercase font-weight-bold text-white">SOUP</p>
+              <p class="menu-price text-white">P200.00</p>
+            </div>
+
+            <div class="menu-content d-flex justify-content-between">
+              <p class="menu-name text-uppercase font-weight-bold text-white">SOJU</p>
+              <p class="menu-price text-white">P100.00</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md">
+          <div class="menu-image h-100 d-flex align-items-start">
+            <img src="assets/img/menu-2.jpg" class="img-fluid" alt="menu image">
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+  <!-- Menu End -->
+
