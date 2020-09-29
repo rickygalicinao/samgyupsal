@@ -60,6 +60,7 @@ header {
 
 header h1 {
   font-family: Dealers;
+  margin-top: 6rem;
 }
 
 header p {
@@ -674,6 +675,9 @@ p.menu-price {
 /*               CSS MEDIA QUERIES           "/
 /*********************************************/
 @media (max-width: 360px) {
+  header h1 {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 641px) {
@@ -707,4 +711,7 @@ p.menu-price {
 }
 
 @media (min-width: 992px) {
+  header h1 {
+    font-size: 5rem;
+  }
 }
