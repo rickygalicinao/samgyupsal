@@ -100,8 +100,8 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
-      no-repeat center center scroll;
+    background: url("../img/reservation-image") black no-repeat center center
+      scroll;
   }
   header video {
     display: none;
@@ -221,7 +221,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(/assets/img/loader.gif);
+  background-image: url(../img/loader.gif);
   background-repeat: no-repeat;
   background-position: center;
   margin: -100px 0 0 -100px;
@@ -632,7 +632,7 @@ span.slash {
 }
 
 .menu-image1 {
-  background-image: url("/assets/img/menu-1.jpg");
+  background-image: url("../img/menu-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -642,7 +642,7 @@ span.slash {
 }
 
 .menu-image2 {
-  background-image: url("/assets/img/menu-2.jpg");
+  background-image: url("../img/menu-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
