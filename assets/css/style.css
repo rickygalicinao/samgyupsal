@@ -102,6 +102,10 @@ header .overlay {
   header {
     background: url("../img/reservation-image.jpg") black no-repeat center
       center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   header video {
     display: none;
