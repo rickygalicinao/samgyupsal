@@ -475,8 +475,9 @@ input.subscribe-input:focus {
 /*********************************************/
 
 #about {
-  padding: 130px;
+  padding: 130px 16px;
 }
+
 .bordered-image {
   border-radius: 50%;
   width: 150px;
